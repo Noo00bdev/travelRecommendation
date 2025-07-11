@@ -1,5 +1,6 @@
 const btn = document.getElementById('submit')
 const search = document.getElementById('search')
+const show = document.getElementById('show')
 const apiApp = "travel_recommendation_api.json"
 
 btn.addEventListener('click', function(){
@@ -11,7 +12,8 @@ btn.addEventListener('click', function(){
         const allCity = data.countries.flatMap(countries => countries.cities)
         const result = allCountries.filter(countries => countries.name.toLowerCase() === searchValue);
         if(result.length > 0){
-            console.log("trouvé")
+            let show = show.createElement('div')
+            
         }else{
             console.log("Pas trouvé")
         }
