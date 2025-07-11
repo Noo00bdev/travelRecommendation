@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;  
 }
-main{
+main {
     background: url(Images/londres.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
 }
 .navbar {
     display: flex;
@@ -49,5 +51,5 @@ main{
     background-color: aqua;
 }
 i{
-    color: black;
+    color: white;
 }
