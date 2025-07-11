@@ -16,13 +16,8 @@
             <ul>
                 <li><a href="travel_recommendation.html">Home</a></li>
                 <li><a href="about_us.html">About Us</a></li>
-                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="contact_us">Contact Us</a></li>
             </ul>
-            <div class = "search">
-                <input name="search" id="search" placeholder =" search">
-                <button type ="submit" id="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </div>
         </nav>
     </header>
     <main>
@@ -35,23 +30,27 @@
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class ="intro">
-            <div class="title">
-                <p>EXPLORE <br> DREAM <br> DESTINATION</p>
+        <div class="container">
+            <div class="intro form_title">
+                <h1>CONTACT US</h1>
+                <p>Get in touch</p>
             </div>
-            <div class ="descrb">
-                <p> It encourages exploration of unfamiliar <br>
-                    territories, embracing diverse cultures and <br>
-                    landscapes, while pursuing the desired <br>
-                    destination that captivates the heart and <br>
-                    ignites a sense of wonder. 
-                </p>
-                <button class ="descrb_btn"> BOOK NOW</button>
+            <div class="form">
+                <div>
+                    <label for="name">Name</label>
+                    <div><input type="text" id="name" placeholder="Enter your name...."></div>
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <div><input type="text" id="Email" placeholder="Enter your email...."></div>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <div><textarea name="message" id="messge" cols="30" rows="10" placeholder="Enter your message...."></textarea></div>
+                </div>
+                <button>Submit</button>
             </div>
-        </div>
-        <div id ="show">
         </div>
     </main>
-<script src="travel_recommendation.js"></script>
+    
 </body>
-</html>
