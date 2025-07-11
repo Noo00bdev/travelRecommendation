@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+main{
+    background: url(Images/londres.jpg) no-repeat center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.search input{
+    border: none;
+}
+.search input:focus{
+    border: none;
+    outline: none;
+}
+.search{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+i{
+    color: black;
+}
