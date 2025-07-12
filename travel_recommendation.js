@@ -1,4 +1,5 @@
 const btn = document.getElementById('submit')
+const reset = document.getElementById('reset')
 const search = document.getElementById('search')
 const show = document.getElementById('show')
 const apiApp = "travel_recommendation_api.json"
@@ -129,4 +130,9 @@ btn.addEventListener('click', function(){
     })
 
 })
+reset.addEventListener('click', function(){
+    show.innerHTML = ""
+    search.value = ""
+})
+
 
