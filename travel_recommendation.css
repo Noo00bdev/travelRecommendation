@@ -195,7 +195,6 @@ main {
     overflow-y: auto;
 }
 
-
 .cards{
     display: flex;
     flex-direction: column;
@@ -208,6 +207,7 @@ main {
     padding: 5px;
     border-radius: 5px;
 }
+
 .cards img{
     width: 100%;
     height: auto;
